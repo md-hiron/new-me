@@ -1,0 +1,266 @@
+*{margin: 0; padding: 0;}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+
+/* banner css */
+.banner{
+    background-image: url(./images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.banner-content{
+    text-align: right;
+    padding: 200px 0 160px;
+}
+
+.banner-content h1{
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #151414;
+}
+
+.banner-content p{
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 30px;
+}
+
+a.primary-btn{
+    display: inline-block;
+    padding: 20px 25px;
+    background: #F15B22;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    line-height: 1;
+    font-size: 20px;
+}
+
+/* failure style */
+.failure{
+    padding: 135px 0; 
+}
+
+.failure-content-wrap{
+    display: flex;
+    align-items: center;
+}
+
+.failure-img{
+    width: 100%;
+    padding-right: 50px;
+}
+
+.failure-content{
+    width: 100%;
+    padding-left: 50px;
+}
+
+.failure-content h2{
+    font-size: 40px;
+    color: #151414;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.failure-content p{
+    color: #444343;
+}
+
+ul.failure-list{
+    list-style: none;
+    margin-top: 30px;
+}
+
+ul.failure-list li{
+    color: #444343;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+ul.failure-list li img{
+    margin-right: 5px;
+    display: inline-block;
+    width: 24px;
+    margin-bottom: -10px;
+}
+
+/* my plan style */
+
+.my-plan{
+    padding-bottom: 120px;
+}
+
+.my-plan-head{
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.plan-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+}
+
+.my-plan-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-plan-content{
+    text-align: center;
+}
+
+.my-plan-content img{
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.my-plan-content h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 15px;
+}
+
+.my-plan-content p{
+    font-size: 25px;
+    color: #737272;
+}
+
+/* my contact style */
+
+.my-contact{
+    padding-bottom: 125px;
+}
+
+.my-contact-content{
+    padding: 70px 60px;
+    background-image: url(./images/watch.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.contact-overly{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(241,91,34,1) 0%, rgba(241,91,34,0) 76%);
+}
+
+.my-contact-inner{
+    position: relative;
+}
+
+.my-contact-inner h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+a.call-btn{
+    display: inline-block;
+    padding: 15px 20px;
+    background: #fff;
+    color: #F15B22;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/* footer section */
+.footer{
+    padding: 130px 0 100px;
+    background: #151414;
+}
+
+.footer-cotent-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left{
+    width: 445px;
+}
+
+.footer-left h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-left p{
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.footer-contact a{
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.footer-contact{
+    margin-bottom: 30px;
+}
+
+.footer-social a{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-social a img{
+    max-width: 100%;
+}
+
+.footer-right{
+    width: 210px;
+}
+
+.footer-right h3{
+    font-weight: 600;
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.footer-right form input{
+    width: 100%;
+    height: 30px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-right form button{
+    padding: 15px 30px;
+    background: #fff;
+    border-radius: 8px;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+}
