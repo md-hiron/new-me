@@ -139,6 +139,53 @@ ul.failure-list li img{
     color: #737272;
 }
 
+/* motivation style */
+.motivation{
+    padding: 50px 0 120px;
+}
+
+.motivation-wrap{
+    display: flex;
+    align-items: center;
+}
+
+.motivator-img{
+    width: 100%;
+    padding-right: 50px;
+}
+
+.motivator-img img{
+    max-width: 100%;
+}
+
+.motivator-content{
+    width: 100%;
+    padding-left: 50px;
+}
+
+.motivator-content h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 30px;
+}
+
+.motivator-content p{
+    font-size: 16px;
+    color: #232323;
+    line-height: 1.3;
+    padding-left: 20px;
+    border-left: 2px solid #F15B22;
+    margin-bottom: 20px;
+}
+
+.motivator-content span{
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #151414;
+}
+
 /* my contact style */
 
 .my-contact{
